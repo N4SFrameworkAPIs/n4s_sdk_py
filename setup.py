@@ -6,8 +6,7 @@ setup(
     description='A collection of Python SDKs for N4S.io APIs',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='ratz',
     url='https://github.com/chiefratz/n4s_sdk_py',  # URL del repository
     packages=find_packages(),  # Include dynamicsdk e sensordatasdk
     install_requires=[
