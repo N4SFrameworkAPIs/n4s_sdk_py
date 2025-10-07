@@ -4,7 +4,7 @@ A collection of Python SDKs for interacting with N4S.io Antibot APIs.
 
 ## Installation
 
-To install the `n4s-sdk` package, use pip to download it directly from the GitHub repository. Note that this is a private repository, so you need to be authorized to access it. Contact the author for access credentials.
+To install the `n4s-sdk` package, use pip to download it directly from the GitHub repository.
 
 ### Install the Latest Version
 ```bash
