@@ -8,7 +8,7 @@ setup(
     long_description_content_type='text/markdown',
     author='ratz',
     url='https://github.com/chiefratz/n4s_sdk_py',  # URL del repository
-    packages=find_packages(),  # Include dynamicsdk e sensordatasdk
+    packages=['dynamicsdk', 'sensordatasdk'],  
     install_requires=[
         'requests>=2.28.0',
     ],
