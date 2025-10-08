@@ -6,9 +6,9 @@ setup(
     description='A collection of Python SDKs for N4S.io APIs',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='N4S.io Framework',
+    author='N4S.io',
     url='https://github.com/N4SFrameworkAPIs/n4s_sdk_py',  # URL del repository
-    packages=['dynamicsdk', 'sensordatasdk'],  
+    packages=['dynamicsdk', 'sensordatasdk', 'reese84sdk'],  
     install_requires=[
         'requests>=2.28.0',
     ],
