@@ -2,6 +2,10 @@
 
 A collection of Python SDKs for interacting with N4S.io Antibot APIs.
 
+## Prerequisites
+
+- A valid API key for our service, obtainable through our [Discord Official Server](https://framework.n4s.xyz/).
+
 ## Installation
 
 To install the `n4s-sdk` package, use pip to download it directly from the GitHub repository.
