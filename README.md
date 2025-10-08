@@ -8,7 +8,7 @@ To install the `n4s-sdk` package, use pip to download it directly from the GitHu
 
 ### Install the Latest Version
 ```bash
-pip install git+https://github.com/chiefratz/n4s_sdk_py.git
+pip install git+https://github.com/N4SFrameworkAPIs/n4s_sdk_py.git
 ```
 
 ## Usage Examples
