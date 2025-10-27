@@ -15,8 +15,8 @@ class Reese84Payload:
             raise ValueError("user_agent is required")
         if not self.is_valid_url(self.url):
             raise ValueError("url must be a valid URL")
-        if not self.is_valid_url(self.site):
-            raise ValueError("site must be a valid URL")
+        # if not self.is_valid_url(self.site):
+        #     raise ValueError("site must be a valid URL")
         if not self.data:
             raise ValueError("data is required")
 
@@ -34,6 +34,6 @@ class Reese84Payload:
         return {
             "user_agent": self.user_agent,
             "url": self.url,
-            "site": self.site,
+            #"site": self.site,
             "data": self.data
         }
