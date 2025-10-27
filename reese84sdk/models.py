@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 class Reese84Payload:
     user_agent: str
     url: str
-    site: str
+    #site: str
     data: str
 
     def validate(self) -> None:
