@@ -61,6 +61,7 @@ client = SensorDataClient(api_key=api_key, api_url=api_url)
 #Set your session payload
 sensor_data = SensorData(
     targetURL="https://www.example.com/some-path",
+    script_url="your_site_script_url",
     user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
     abck="...",
     bm_sz="...",    
@@ -95,7 +96,6 @@ client = Reese84Client(api_key=api_key, api_url=api_url)
 payload = Reese84Payload(
     user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
     url="https://www.somesite/onalbaine-legeance-what-come-Womany-Malcome-to-o/4790704588958611838",
-    site="https://www.somesite.com/",
     data="..."    #fill it with the response.text that you get from the GET request to https://www.somesite/onalbaine-legeance-what-come-Womany-Malcome-to-o/4790704588958611838
 )
 
