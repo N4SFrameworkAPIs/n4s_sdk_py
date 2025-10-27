@@ -5,6 +5,7 @@ from urllib.parse import urlparse
 @dataclass
 class SensorData:
     targetURL: str
+    script_url: str
     user_agent: str
     abck: str
     bm_sz: str
@@ -15,6 +16,10 @@ class SensorData:
         """Validate all mandatory fields."""
         if not self.targetURL:
             raise ValueError("targetURL is required")
+        if not self.script_url:
+            raise ValueError("script_url is required")
+        if not self.is_valid_url(self.script_url):
+            raise ValueError("script_url must be a valid URL")
         if not self.is_valid_url(self.targetURL):
             raise ValueError("targetURL must be a valid URL")
         if not self.user_agent:
@@ -43,6 +48,7 @@ class SensorData:
         """Convert to dictionary for JSON serialization."""
         return {
             "targetURL": self.targetURL,
+            "script_url": self.script_url,
             "user_agent": self.user_agent,
             "abck": self.abck,
             "bm_sz": self.bm_sz,
