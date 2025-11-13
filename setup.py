@@ -8,7 +8,7 @@ setup(
     long_description_content_type='text/markdown',
     author='N4S.io',
     url='https://github.com/N4SFrameworkAPIs/n4s_sdk_py',  # URL del repository
-    packages=['dynamicsdk', 'sensordatasdk', 'reese84sdk'],  
+    packages=['dynamicsdk', 'sensordatasdk', 'reese84sdk', 'sbsdsdk'],  
     install_requires=[
         'requests>=2.28.0',
     ],
